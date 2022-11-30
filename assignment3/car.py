@@ -42,4 +42,4 @@ class Car(Vehicle):
         return self.__speed
 
     def getNumCars(self) -> int:
-        return self.numCars
+        return Car.numCars
