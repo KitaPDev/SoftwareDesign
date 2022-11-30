@@ -4,11 +4,6 @@ class EV(Car):
     __range = 0.0
     __gen = 1
 
-    def __init__(self):
-        super().__init__()
-        self.__range = 200.0
-        self.__gen = 1
-
     def __init__(self, speed: float = 60.0, model: str = "Generic EV", color: str = "Silver", range: float = "200", gen: int = 1):
         super().__init__(speed, model, color)
         self.__range = range

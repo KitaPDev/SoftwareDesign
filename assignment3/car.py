@@ -6,12 +6,6 @@ class Car(Vehicle):
     __color = ""
     numCars = 0
 
-    def __init__(self):
-        self.__speed = 60.0
-        self.__model = "Generic Car"
-        self.__color = "Silver"
-        Car.numCars += 1
-
     def __init__(self, speed: float = 60.0, model: str = "Generic Car", color: str = "Silver"):
         self.__speed = speed
         self.__model = model
